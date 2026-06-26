@@ -202,7 +202,7 @@ def _parse_args() -> argparse.Namespace:
     parser.add_argument("--eval_temperature", type=float, default=0.0)
     parser.add_argument("--eval_max_new_tokens", type=int, default=1024)
     parser.add_argument("--eval_max_tool_calls", type=int, default=3)
-    parser.add_argument("--subagent_server_url", type=str, default="")
+
     return parser.parse_args()
 
 
